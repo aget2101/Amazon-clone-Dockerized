@@ -6,7 +6,7 @@ pipeline {
      }
     environment {
     DOCKERHUB_CREDENTIALS = credentials('abreham_dockerhub_jenkins')
-    APP_NAME = "aget2101/amazon"
+    APP_NAME = "abreham/amazon"
     }
     stages { 
         stage('SCM Checkout') {
