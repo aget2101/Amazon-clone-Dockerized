@@ -5,7 +5,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('abreham_dockerhub')
+    DOCKERHUB_CREDENTIALS = credentials('abreham_dockerhub_jenkins')
     APP_NAME = "aget2101/amazon"
     }
     stages { 
